@@ -1,3 +1,7 @@
 *.webm
+*.mkv
+*.pyc
 .idea/
 venv3/
+.vscode/
+pip-selfcheck.json

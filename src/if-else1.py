@@ -33,9 +33,10 @@ else:
     print('More')
 
 
-if x == 5 and y == 5:
-    print('Both are 5')
-elif x > 0 or y > 0:
-    print('Both are positive')
+if x == 5:
+    if y == 5:
+        print('Both are 5')
+elif x > -1 or y > -1:
+    print('Both are positive or zero')
 else:
     print('Both are negative')
